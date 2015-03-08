@@ -48,6 +48,7 @@
 		color: #52575c;
 		line-height: 1.75em;
 		font-size: 15pt;
+		-webkit-font-smoothing: subpixel-antialiased;
 	}
 
 	h1,h2,h3,h4,h5,h6
@@ -126,6 +127,11 @@
 		border: 0;
 		border-top: solid 1px #c2c7cc;
 	}
+
+	hr.lineup
+	{
+		border-top: solid 1px #c97b5e;
+	}
 	
 	blockquote
 	{
@@ -190,7 +196,6 @@
 				display: block;
 				color: #c97b5e;
 				padding: 0.75em 0 1em 0;
-				font-weight: 100;
 				font-size: 1.5em;
 				line-height: 1.5em;
 			}
@@ -332,6 +337,11 @@
 		{
 			text-align: right;
 		}
+
+	.sponsors
+	{
+		vertical-align: middle;
+	}
 
 	/* List */
 
@@ -1027,6 +1037,11 @@
 	#main
 	{
 		padding-bottom: 4em;
+	}
+
+	#sponsors
+	{
+		background-image: url('../images/khayaalwatercolorred.png');
 	}
 
 /*********************************************************************************/
